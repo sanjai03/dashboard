@@ -6,3 +6,20 @@
 .text-gray{
   color: gray!important;
 }
+.form-control-login{
+  padding: 1rem 1.5rem;
+  font: 0.8rem;
+  border-radius: 10rem;
+
+}
+
+.checkbox-login{
+  margin-left: -4rem;
+}
+
+@media (min-width: 768px)
+{
+  .checkbox-login{
+    margin-left: -17.6rem;
+  }
+}
