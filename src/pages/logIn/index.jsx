@@ -13,6 +13,22 @@ function LogIn(){
                                     <div className="p-5">
                                         <div className="text-center">
                                             <h1 className="h4 text-center text-gray mb-5">Welcome Back!</h1>
+                                            <form>
+                                                <div className="form-group">
+                                                    <input type="email" placeholder="Enter Email Address..." name="email" className="form-control form-control-login" />
+                                                </div>
+                                                <div className="form-group">
+                                                    <input type="password" placeholder="Password" name="password" className="form-control form-control-login" />
+                                                </div>
+                                                <div className="form-group">
+                                                    
+                                                   <div className="custom-control checkbox-login custom-checkbox">
+                                                   <input type="checkbox" name="remember_me" className="custom-control-input" />
+                                                   <label className="custom-control-label">Remember Me</label>
+                                                   </div>
+                                                </div>
+                                                <button type="submit" className="btn btn-primary btn-block">Log In</button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
